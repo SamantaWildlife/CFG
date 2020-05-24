@@ -15,34 +15,34 @@ book_century = century()
 
 book = str(book_year)
 
-if "0"[-1] in book:
+if "0"[-2] in book:
     book = 'Noughties'
 
-elif "1"[-1] in book:
+elif "1"[-2] in book:
     book = 'Teens'
 
-elif "2"[-1:] in book:
+elif "2"[-2:] in book:
     book = 'Twenties'
 
-elif "3"[-1:] in book:
+elif "3"[-2:] in book:
     book = 'Thirties'
 
-elif "4"[-1:] in book:
+elif "4"[-2:] in book:
     book = 'Forties'
 
-elif "5"[-1:] in book:
+elif "5"[-2:] in book:
     book = 'Fifties'
 
-elif "6"[-1:] in book:
+elif "6"[-2:] in book:
     book = 'Sixties'
 
-elif "7"[-1:] in book:
+elif "7"[-2:] in book:
     book = 'Seventies'
 
-elif "8"[-1:] in book:
+elif "8"[-2:] in book:
     book = 'Eighties'
 
-elif "9"[-1:] in book:
+elif "9"[-2:] in book:
     book = 'Nineties'
 
 else:
