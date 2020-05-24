@@ -1,0 +1,26 @@
+book_century = int(input('What year is your book? '))
+book_decade = str(book_century)
+
+if book_decade[-2] == '0':
+    print('Noughties')
+
+elif book_decade[-2] == '1':
+    print('Teens')
+
+elif book_decade[-2] == '2':
+    print('Twenties')
+
+elif book_decade[-2] == '3':
+    print('Thirties')
+
+elif book_decade[-2] == '4':
+    print('Forties')
+
+elif book_decade[-2] == '5':
+    print('Fifties')
+
+elif book_decade[-2] == '6':
+    print('Sixties')
+
+else:
+    print('Your book is not antique')
