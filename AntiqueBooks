@@ -15,10 +15,10 @@ book_century = century()
 
 book = str(book_year)
 
-if "0"[-2] in book:
+if "0"[-2:] in book:
     book = 'Noughties'
 
-elif "1"[-2] in book:
+elif "1"[-2:] in book:
     book = 'Teens'
 
 elif "2"[-2:] in book:
